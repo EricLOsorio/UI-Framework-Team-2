@@ -2,7 +2,7 @@
 
 # DEMO: https://ericlosorio.github.io/UI-Framework-Team-2/
 
-# CODE: https://github.com/EricLOsorio/UI-Framework-Team-2
+# CODE: https://github.com/EricLOsorio/UI-Framework-Team-2/tree/gh-pages
 
 UI framework for BovAcademy Hackathon - Team 2
 
