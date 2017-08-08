@@ -1,4 +1,9 @@
-# UI-Framework-Team-2
+# Fork of UI-Framework-Team-2 with Gulp setup
+
+# DEMO: https://ericlosorio.github.io/UI-Framework-Team-2/
+
+# CODE: https://github.com/EricLOsorio/UI-Framework-Team-2
+
 UI framework for BovAcademy Hackathon - Team 2
 
 Todd Austin - Carousels, Lists, Color Grid, Message boxes, added elements to main page    
