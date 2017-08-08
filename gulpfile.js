@@ -22,7 +22,7 @@ gulp.task( 'build', function(callback) {
 
 gulp.task( 'deploy', function () {
 
-  return gulp.src('')
+  return gulp.src('./**/**')
              .pipe( exec( 'git add .' ) )
 	     .pipe( exec( 'git commit -am "Releasing"' ) )
 	     .pipe( exec( 'git push' ) )
