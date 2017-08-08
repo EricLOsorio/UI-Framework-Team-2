@@ -44,12 +44,12 @@ gulp.task( 'bump', function () {
     
     gulp.src( ['./index.html', './package.json'] )
         .pipe(bump( { type : 'minor' } ) )
-	.pipe(gulp.dest( './dest/bump' ) );
+	.pipe(gulp.dest( './' ) );
   } else if ( options.type == 'major' ) {
   
       gulp.src( ['./index.html', './package.json'] )
           .pipe(bump( { type : 'major' } ) )
-	  .pipe(gulp.dest( './dest/bump' ) );
+	  .pipe(gulp.dest( './' ) );
   
   } else {
   
@@ -111,7 +111,7 @@ gulp.task( 'lint-template-html', function () {
 
   return gulp.src( './*.html' )
              .pipe( linter () )
-	     .pipe( gulp.dest( 'output' ) );
+	     .pipe( gulp.dest( './' ) );
 
 });
 
